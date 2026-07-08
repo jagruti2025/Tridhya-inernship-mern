@@ -8,4 +8,4 @@ console.log(collage);
 
 //interview...
 // npm, tsc, full form, --watch command
-//var name = 'same'; npt allow
+//var name = 'same'; not allow
