@@ -32,5 +32,5 @@ var Roles;
     Roles[Roles["user"] = 4] = "user";
 })(Roles || (Roles = {}));
 var userRoles = Roles.qa;
-console.log(userRoles);
+console.log(userRoles); //2
 //# sourceMappingURL=enum.js.map

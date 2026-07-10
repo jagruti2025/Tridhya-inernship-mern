@@ -6,6 +6,7 @@
 // fruits(100); //Error
 // fruits(true); //Error
 
+//use Generic
 function fruits<T>(name:T):T{
     return name
 }

@@ -36,5 +36,5 @@ enum Roles{
     user
 }
 
-var userRoles = Roles.qa;
-console.log(userRoles);
+var userRoles = Roles.qa; 
+console.log(userRoles); //2

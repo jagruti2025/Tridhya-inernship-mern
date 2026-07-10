@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>My Contact Manager</h1>
+
+
+  <form id="contactForm">
+    <input type="text" id="nameInput" placeholder="Name" />
+    <input type="email" id="emailInput" placeholder="Email" />
+    <input type="text" id="phoneInput" placeholder="Phone" />
+    <input type="text" id="notesInput" placeholder="Notes (optional)" />
+
+    <button type="submit" id="submitBtn">Add Contact</button>
+  </form>
+
+  <p id="errorMsg" style="color: red;"></p>
+
+  <input type="text" id="searchInput" placeholder="Search by name..." />
+
+  <div id="contactList"></div>
+
+  <script src="dist/app.js"></script>
+</body>
+</html>

@@ -6,6 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // fruits("apple");
 // fruits(100); //Error
 // fruits(true); //Error
+//use Generic
 function fruits(name) {
     return name;
 }
