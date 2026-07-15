@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f2f5;
+}
+
+.app{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.counter-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 32px 40px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+.counter-card h1 {
+  font-size: 25px;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+}
+
+.count-display {
+  font-size: 48px;
+  font-weight: 700;
+  color: #6366f1;
+  margin-bottom: 24px;
+}
+.btns {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+.btn {
+  width: 48px;
+  height: 48px;
+  border: none;
+  border-radius: 50%;
+  font-size: 22px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+.btn.increment {
+  background: #6366f1;
+  color: white;
+}
+.btn.increment:hover {
+  background: #4f46e5;
+}
+
+.btn.decrement {
+  background: #e5e7eb;
+  color: #374151;
+}
+.btn.decrement:hover {
+  background: #d1d5db;
+}
+.reset-btn {
+  margin-top: 16px;
+  background: transparent;
+  border: 1px solid #d1d5db;
+  color: #6b7280;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.reset-btn:hover {
+  background: #f3f4f6;
+  color: #374151;
+}
+.step-selector {
+  margin-top: 24px;
+  border-top: 1px solid #f0f0f0;
+  padding-top: 16px;
+}
+
+.step-label {
+  font-size: 12px;
+  color: #9ca3af;
+  margin-bottom: 8px;
+}
+
+.step-buttons {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.step-btn {
+  border: 1px solid #d1d5db;
+  background: white;
+  color: #6b7280;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.step-btn:hover {
+  background: #f3f4f6;
+}
+
+.step-btn.active {
+  background: #6366f1;
+  color: white;
+  border-color: #6366f1;
+}
+.range-label {
+  font-size: 12px;
+  color: #9ca3af;
+  margin-bottom: 16px;
+}
+
+.btn:disabled {
+  background: #f3f4f6;
+  color: #d1d5db;
+  cursor: not-allowed;
+}
