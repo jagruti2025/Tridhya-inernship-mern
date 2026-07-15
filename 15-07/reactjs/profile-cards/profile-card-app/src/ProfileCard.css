@@ -1,0 +1,78 @@
+.Profile-card {
+    height: 380px;
+    width: 280px;
+    border: 2px solid;
+    border-radius: 16px;
+    background-color: #ffffff;
+    padding: 24px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease;
+}
+
+.Profile-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+
+}
+
+.Profile-card img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 16px;
+    border: 3px solid #6366f1;
+
+}
+
+.Profile-card h2 {
+    font-size: 20px;
+    color: #1a1a1a;
+    margin-bottom: 4px;
+}
+
+.role {
+    color: #6366f1;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.bio {
+    color: #555;
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 16px;
+
+}
+.followers {
+  font-size: 13px;
+  color: #888;
+  margin-bottom: 16px;
+}
+
+.follow-btn {
+  background: #6366f1;
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+.follow-btn:hover {
+  background: #4f46e5;
+}
+
+.follow-btn.following {
+  background: #e5e7eb;
+  color: #374151;
+}
+
+.follow-btn.following:hover {
+  background: #d1d5db;
+}
+

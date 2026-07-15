@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f2f5;
+}
+
+.Profile-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.Profile-cards h1 {
+    color: #1a1a1a;
+}
+
+@media (max-width: 768px ) {
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+}
+
+@media (max-width: 468px ) {
+    .cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
