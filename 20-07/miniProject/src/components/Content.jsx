@@ -69,7 +69,7 @@ function Content() {
             key={index}
             image={item.image}
             title={item.title}
-            description={item.desc}
+            description={item.description}
           />
         ))}
       </div>
